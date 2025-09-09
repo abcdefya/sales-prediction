@@ -60,4 +60,3 @@ def sales_forecast_training():
     extract_data = extract_data_task()
     return extract_data
 
-dag = sales_forecast_training()
