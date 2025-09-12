@@ -550,7 +550,7 @@ class ModelTrainer:
                                        target_col: str = 'sales') -> None:
         """Generate and log model comparison visualizations to MLflow"""
         try:
-            from ml_models.model_visualization import ModelVisualizer
+            from include.ml_models.models_visualization import ModelVisualizer
             import tempfile
             import os
             
